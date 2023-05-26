@@ -15,3 +15,26 @@ body, html {
     grid-template-rows: repeat(3,1fr);
     height: 100%;
 }
+
+.item{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container div:nth-child(2){
+ background-color: yellowgreen;   
+}
+.grid-container div:nth-child(4){
+    background-color: tomato;
+}
+.grid-container div:nth-child(10){
+    background-color: turquoise;
+}
+.grid-container div:nth-child(12){
+    background-color: slategrey;
+}
+.grid-container div:nth-child(14){
+    background-color: blueviolet;
+}
